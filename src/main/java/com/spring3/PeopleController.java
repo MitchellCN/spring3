@@ -1,3 +1,5 @@
+package com.spring3;
+
 import com.spring3.Person;
 import com.spring3.PersonRepository;
 import org.springframework.beans.factory.annotation.Autowired;

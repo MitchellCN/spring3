@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <title>People List</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
+    <link rel = "stylesheet" type = "text/css" href ="../static/styles.css" th:href="@{styles.css}"/>
 
 </head>
 
@@ -19,7 +19,7 @@
 </nav>
 <h1>Manage Your MONEY and Your TIME!</h1>
 
-<form action="person.html" th:action="@{/}" method="post">
+<form action="/person" th:action="@{/}" method="post">
     <label>
         <span>Here I am</span>
         <input type="text" name="search" value="" th:value="${search}" />
